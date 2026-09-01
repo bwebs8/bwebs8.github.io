@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>B-Webs | Web Development Company in India</title>
+    <meta name="description" content="B-Webs is a web development company in India, building modern, fast, mobile-friendly websites for businesses, schools and online stores.">
+    <meta name="keywords" content="web development company in India, website development company in India, web design company in India, affordable web development company India, ecommerce website development India, business website development India, web development company Kerala, website development Kerala, SEO services India, B-Webs">
+    <meta name="author" content="B-Webs">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://www.b-webs.com/">
+    <meta name="theme-color" content="#6366f1">
+
+    <!-- Open Graph / Facebook / WhatsApp preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.b-webs.com/">
+    <meta property="og:title" content="B-Webs | Web Development Company in India">
+    <meta property="og:description" content="Modern, fast, and affordable websites for Indian businesses, schools, communities and online stores — built and optimized end to end.">
+    <meta property="og:image" content="https://www.b-webs.com/logo-full.png">
+    <meta property="og:image:width" content="1096">
+    <meta property="og:image:height" content="1081">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="B-Webs logo">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="B-Webs">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="B-Webs | Web Development Company in India">
+    <meta name="twitter:description" content="Modern, fast, and affordable websites for Indian businesses, schools, communities and online stores.">
+    <meta name="twitter:image" content="https://www.b-webs.com/logo-full.png">
+    <meta name="twitter:image:alt" content="B-Webs logo">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js" defer></script>
+
+    <!-- Structured data: helps Google understand who B-Webs is -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "B-Webs",
+      "url": "https://www.b-webs.com/",
+      "logo": "https://www.b-webs.com/logo-full.png",
+      "image": "https://www.b-webs.com/logo-full.png",
+      "description": "B-Webs designs and builds modern, fast, mobile-friendly websites for businesses, schools, communities and online stores across India.",
+      "telephone": "+91-8136892484",
+      "email": "info@b-webs.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Thrissur",
+        "addressRegion": "Kerala",
+        "addressCountry": "IN"
+      },
+      "sameAs": ["https://instagram.com/b_webs.official"],
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "knowsAbout": [
+        "Website Design",
+        "Website Development",
+        "E-commerce Website Development",
+        "Local SEO",
+        "Google Business Profile Management",
+        "Google Search Console Management"
+      ],
+      "priceRange": "$$"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "B-Webs",
+      "url": "https://www.b-webs.com/",
+      "inLanguage": "en-IN"
+    }
+    </script>
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+    <div class="loader-logo">B-Webs</div>
+    <div class="loader-bar"><div class="loader-bar-inner"></div></div>
+</div>
+
+<!-- PARTICLES -->
+<canvas id="particleCanvas"></canvas>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+        <a href="/" class="nav-logo"><img src="logo-icon.png" alt="B-Webs logo" width="34" height="34"><span>B-Webs</span></a>
+        <ul class="nav-links">
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobileOpen" aria-label="Open menu">
+            <span class="iconify" data-icon="lucide:menu" data-width="24"></span>
+        </button>
+    </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+        <span class="iconify" data-icon="lucide:x" data-width="28"></span>
+    </button>
+    <a href="/about" onclick="closeMobile()">About</a>
+    <a href="/services" onclick="closeMobile()">Services</a>
+    <a href="#process" onclick="closeMobile()">Process</a>
+    <a href="#reviews" onclick="closeMobile()">Reviews</a>
+    <a href="#contact" onclick="closeMobile()">Contact Us</a>
+</div>
+
+<a href="#hero" class="skip-link">Skip to content</a>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-bg">
+        <div class="hero-grad hero-grad-1"></div>
+        <div class="hero-grad hero-grad-2"></div>
+        <div class="hero-grad hero-grad-3"></div>
+    </div>
+    <div class="hero-content">
+        <div class="hero-badge" id="heroBadge"><span class="dot"></span> Web Development Company in India</div>
+        <h1 id="heroTitle">
+            <span class="word">We </span>
+            <span class="word">Build </span>
+            <span class="word highlight">Stunning </span>
+            <span class="word">Websites</span>
+        </h1>
+        <p class="hero-sub" id="heroSub">Modern, fast, and responsive websites for businesses across India — crafted with precision and creativity.</p>
+        <div class="hero-buttons" id="heroBtns">
+            <a href="#contact" class="btn-primary">
+                <span>Get Started</span>
+                <span class="iconify" data-icon="lucide:arrow-right" data-width="18"></span>
+            </a>
+            <a href="#services" class="btn-secondary">
+                <span>View Work</span>
+                <span class="iconify" data-icon="lucide:eye" data-width="18"></span>
+            </a>
+        </div>
+        <div class="hero-stats" id="heroStats">
+            <div class="hero-stat">
+                <div class="hero-stat-num" data-count="50">0+</div>
+                <div class="hero-stat-label">Projects Done</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-num" data-count="40">0+</div>
+                <div class="hero-stat-label">Happy Clients</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-num" data-count="3">0+</div>
+                <div class="hero-stat-label">Years Experience</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+    <div class="section-inner">
+        <div class="section-label reveal">Who We Are</div>
+        <div class="about-grid">
+            <div class="about-visual reveal-left">
+                <div class="about-visual-inner">
+                    <img src="logo-icon.png" alt="B-Webs logo" class="about-visual-logo" width="70" height="70" loading="lazy">
+                    <div class="about-visual-sub">Crafting Digital Excellence</div>
+                </div>
+                <div class="floating-card">
+                    <div class="fc-icon" style="background:rgba(99,102,241,0.1);color:#6366f1;">
+                        <span class="iconify" data-icon="lucide:zap" data-width="18"></span>
+                    </div>
+                    <span>Fast Performance</span>
+                </div>
+                <div class="floating-card">
+                    <div class="fc-icon" style="background:rgba(16,185,129,0.1);color:#10b981;">
+                        <span class="iconify" data-icon="lucide:shield-check" data-width="18"></span>
+                    </div>
+                    <span>100% Secure</span>
+                </div>
+            </div>
+            <div class="about-text reveal-right">
+                <div class="section-label" style="margin-bottom:12px;">About B-Webs</div>
+                <h2 class="section-title">We Turn Ideas Into Digital Reality</h2>
+                <p>At B-Webs, we believe every business deserves a powerful online presence. We combine creativity, modern design principles, and cutting-edge technology to build websites that don't just look great — they perform.</p>
+                <p>From startups to established brands, we partner with our clients to understand their vision and deliver solutions that exceed expectations. Client satisfaction isn't just a goal — it's our standard.</p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <div class="af-icon"><span class="iconify" data-icon="lucide:palette" data-width="18"></span></div>
+                        <span>Creative Design</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="af-icon"><span class="iconify" data-icon="lucide:rocket" data-width="18"></span></div>
+                        <span>Fast Performance</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="af-icon"><span class="iconify" data-icon="lucide:smartphone" data-width="18"></span></div>
+                        <span>Fully Responsive</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="af-icon"><span class="iconify" data-icon="lucide:heart-handshake" data-width="18"></span></div>
+                        <span>Client Focused</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+    <div class="section-inner">
+        <div class="section-label reveal">What We Do</div>
+        <h2 class="section-title reveal d1">Services Tailored For Your Growth</h2>
+        <p class="section-desc reveal d2">We offer end-to-end web solutions designed to help your business thrive in the digital world. Read more about our <a href="/web-development-service-india">web development services in India</a>.</p>
+        <div class="services-grid">
+            <a href="/best-web-design-india" class="service-card is-link reveal d1">
+                <div class="service-icon"><span class="iconify" data-icon="lucide:figma" data-width="24"></span></div>
+                <h3>Website Design</h3>
+                <p>Visually stunning, user-centric designs that capture your brand essence and engage your audience from the first click.</p>
+                <div class="service-arrow"><span class="iconify" data-icon="lucide:arrow-right" data-width="16"></span></div>
+            </a>
+            <div class="service-card reveal d2">
+                <div class="service-icon"><span class="iconify" data-icon="lucide:code-2" data-width="24"></span></div>
+                <h3>Website Development</h3>
+                <p>Clean, efficient, and scalable code that brings your designs to life with blazing-fast load times and smooth interactions.</p>
+                <div class="service-arrow"><span class="iconify" data-icon="lucide:arrow-right" data-width="16"></span></div>
+            </div>
+            <div class="service-card reveal d3">
+                <div class="service-icon"><span class="iconify" data-icon="lucide:shopping-cart" data-width="24"></span></div>
+                <h3>E-commerce Websites</h3>
+                <p>Powerful online stores with secure payments, inventory management, and seamless shopping experiences that drive sales.</p>
+                <div class="service-arrow"><span class="iconify" data-icon="lucide:arrow-right" data-width="16"></span></div>
+            </div>
+            <div class="service-card reveal d4">
+                <div class="service-icon"><span class="iconify" data-icon="lucide:building-2" data-width="24"></span></div>
+                <h3>Business Websites</h3>
+                <p>Professional websites that build trust, showcase your services, and convert visitors into loyal customers.</p>
+                <div class="service-arrow"><span class="iconify" data-icon="lucide:arrow-right" data-width="16"></span></div>
+            </div>
+            <a href="/local-seo-services-india" class="service-card is-link reveal d5">
+                <div class="service-icon"><span class="iconify" data-icon="lucide:search" data-width="24"></span></div>
+                <h3>SEO Optimization</h3>
+                <p>Data-driven SEO strategies that boost your search rankings, increase organic traffic, and grow your online visibility.</p>
+                <div class="service-arrow"><span class="iconify" data-icon="lucide:arrow-right" data-width="16"></span></div>
+            </a>
+            <div class="service-card reveal d6">
+                <div class="service-icon"><span class="iconify" data-icon="lucide:wrench" data-width="24"></span></div>
+                <h3>Website Maintenance</h3>
+                <p>Ongoing support, updates, security patches, and performance monitoring to keep your site running at its best.</p>
+                <div class="service-arrow"><span class="iconify" data-icon="lucide:arrow-right" data-width="16"></span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section process" id="process">
+    <div class="section-inner">
+        <div style="text-align:center;">
+            <div class="section-label reveal" style="justify-content:center;">How We Work</div>
+            <h2 class="section-title reveal d1">Our Proven Process</h2>
+            <p class="section-desc reveal d2" style="margin:0 auto;">A streamlined approach that transforms your vision into a high-performing website, step by step.</p>
+        </div>
+        <div class="process-timeline" id="processTimeline">
+            <div class="process-line"></div>
+            <div class="process-line-fill" id="processLineFill"></div>
+            <div class="process-step" data-step="0">
+                <div class="step-num">01</div>
+                <div class="step-icon"><span class="iconify" data-icon="lucide:clipboard-list" data-width="22"></span></div>
+                <h3>Planning</h3>
+                <p>We understand your goals, audience, and requirements to create a solid project roadmap.</p>
+            </div>
+            <div class="process-step" data-step="1">
+                <div class="step-num">02</div>
+                <div class="step-icon"><span class="iconify" data-icon="lucide:pen-tool" data-width="22"></span></div>
+                <h3>Design</h3>
+                <p>Beautiful mockups and wireframes crafted to reflect your brand identity perfectly.</p>
+            </div>
+            <div class="process-step" data-step="2">
+                <div class="step-num">03</div>
+                <div class="step-icon"><span class="iconify" data-icon="lucide:code" data-width="22"></span></div>
+                <h3>Development</h3>
+                <p>Clean, responsive code that brings the design to life with smooth functionality.</p>
+            </div>
+            <div class="process-step" data-step="3">
+                <div class="step-num">04</div>
+                <div class="step-icon"><span class="iconify" data-icon="lucide:rocket" data-width="22"></span></div>
+                <h3>Launch</h3>
+                <p>Rigorous testing, deployment, and optimization — your site goes live flawlessly.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section" id="reviews">
+    <div class="section-inner">
+        <div style="text-align:center;">
+            <div class="section-label reveal" style="justify-content:center;">Testimonials</div>
+            <h2 class="section-title reveal d1">What Our Clients Say</h2>
+            <p class="section-desc reveal d2" style="margin:0 auto;">Don't just take our word for it — hear from the businesses we've helped grow.</p>
+        </div>
+        <div class="testimonials-wrap reveal-scale d3">
+            <div class="testimonials-track" id="tTrack">
+                <div class="t-card">
+                    <div class="t-stars"><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span></div>
+                    <p>"B-Webs completely transformed our online presence. The website they built is fast, beautiful, and our conversions have doubled since launch."</p>
+                    <div class="t-author"><div class="t-avatar">RK</div><div><div class="t-name">Rahul Kumar</div><div class="t-role">CEO, TechStart India</div></div></div>
+                </div>
+                <div class="t-card">
+                    <div class="t-stars"><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span></div>
+                    <p>"The team at B-Webs is incredibly talented and professional. They delivered our e-commerce store ahead of schedule and it looks amazing."</p>
+                    <div class="t-author"><div class="t-avatar">PS</div><div><div class="t-name">Priya Sharma</div><div class="t-role">Founder, StyleHive</div></div></div>
+                </div>
+                <div class="t-card">
+                    <div class="t-stars"><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span></div>
+                    <p>"Best web development agency I've worked with. Their attention to detail and communication throughout the project was outstanding."</p>
+                    <div class="t-author"><div class="t-avatar">AM</div><div><div class="t-name">Arjun Mehta</div><div class="t-role">Director, GrowMore Solutions</div></div></div>
+                </div>
+                <div class="t-card">
+                    <div class="t-stars"><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span></div>
+                    <p>"Our restaurant's website looks absolutely stunning. B-Webs captured the vibe of our brand perfectly. Highly recommend!"</p>
+                    <div class="t-author"><div class="t-avatar">NV</div><div><div class="t-name">Neha Verma</div><div class="t-role">Owner, The Spice Kitchen</div></div></div>
+                </div>
+                <!-- Duplicate set for seamless infinite scroll -->
+                <div class="t-card">
+                    <div class="t-stars"><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span></div>
+                    <p>"B-Webs completely transformed our online presence. The website they built is fast, beautiful, and our conversions have doubled since launch."</p>
+                    <div class="t-author"><div class="t-avatar">RK</div><div><div class="t-name">Rahul Kumar</div><div class="t-role">CEO, TechStart India</div></div></div>
+                </div>
+                <div class="t-card">
+                    <div class="t-stars"><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span></div>
+                    <p>"The team at B-Webs is incredibly talented and professional. They delivered our e-commerce store ahead of schedule and it looks amazing."</p>
+                    <div class="t-author"><div class="t-avatar">PS</div><div><div class="t-name">Priya Sharma</div><div class="t-role">Founder, StyleHive</div></div></div>
+                </div>
+                <div class="t-card">
+                    <div class="t-stars"><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span></div>
+                    <p>"Best web development agency I've worked with. Their attention to detail and communication throughout the project was outstanding."</p>
+                    <div class="t-author"><div class="t-avatar">AM</div><div><div class="t-name">Arjun Mehta</div><div class="t-role">Director, GrowMore Solutions</div></div></div>
+                </div>
+                <div class="t-card">
+                    <div class="t-stars"><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span><span class="iconify" data-icon="lucide:star" data-width="16"></span></div>
+                    <p>"Our restaurant's website looks absolutely stunning. B-Webs captured the vibe of our brand perfectly. Highly recommend!"</p>
+                    <div class="t-author"><div class="t-avatar">NV</div><div><div class="t-name">Neha Verma</div><div class="t-role">Owner, The Spice Kitchen</div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+    <div class="section-inner">
+        <div class="section-label reveal">Get In Touch</div>
+        <h2 class="section-title reveal d1">Let's Build Something Great</h2>
+        <p class="section-desc reveal d2">Have a project in mind? Reach out and let's discuss how we can help your business grow online.</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item reveal-left d1">
+                    <div class="ci-icon"><span class="iconify" data-icon="lucide:phone" data-width="22"></span></div>
+                    <div>
+                        <div class="ci-label">Phone</div>
+                        <div class="ci-value"><a href="tel:+918136892484">+91 8136892484</a></div>
+                    </div>
+                </div>
+                <div class="contact-item reveal-left d2">
+                    <div class="ci-icon"><span class="iconify" data-icon="lucide:mail" data-width="22"></span></div>
+                    <div>
+                        <div class="ci-label">Email</div>
+                        <div class="ci-value"><a href="mailto:info@b-webs.com">info@b-webs.com</a></div>
+                    </div>
+                </div>
+                <div class="contact-item reveal-left d2">
+                    <div class="ci-icon"><span class="iconify" data-icon="lucide:instagram" data-width="22"></span></div>
+                    <div>
+                        <div class="ci-label">Instagram</div>
+                        <div class="ci-value"><a href="https://instagram.com/b_webs.official" target="_blank" rel="noopener">@b_webs.official</a></div>
+                    </div>
+                </div>
+                <div class="contact-item reveal-left d3">
+                    <div class="ci-icon"><span class="iconify" data-icon="lucide:globe" data-width="22"></span></div>
+                    <div>
+                        <div class="ci-label">Website</div>
+                        <div class="ci-value"><a href="https://www.b-webs.com/" target="_blank" rel="noopener">www.b-webs.com</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="whatsapp-card reveal-right">
+                <img src="logo-icon.png" alt="B-Webs logo" class="wa-logo" width="64" height="64" loading="lazy">
+                <h3 class="wa-title">Chat With Us on WhatsApp</h3>
+                <p class="wa-desc">Have a project in mind? Message us directly and our team will reply right away.</p>
+                <a href="https://wa.me/918136892484?text=Hi%20B-Webs%2C%20I%27d%20like%20to%20talk%20about%20a%20website." target="_blank" rel="noopener" class="wa-button">
+                    <span class="iconify" data-icon="ic:baseline-whatsapp" data-width="22"></span>
+                    Message on WhatsApp
+                </a>
+                <div class="wa-phone">
+                    <span class="iconify" data-icon="lucide:phone" data-width="16"></span>
+                    <a href="tel:+918136892484">+91 8136892484</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo">
+                    <img src="logo-icon.png" alt="B-Webs logo" width="56" height="56" loading="lazy">
+                </a>
+                <p>We build stunning, high-performance websites that help businesses grow and stand out in the digital world.</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/b_webs.official" target="_blank" rel="noopener" aria-label="Instagram">
+                        <span class="iconify" data-icon="lucide:instagram" data-width="18"></span>
+                    </a>
+                    <a href="mailto:info@b-webs.com" aria-label="Email">
+                        <span class="iconify" data-icon="lucide:mail" data-width="18"></span>
+                    </a>
+                    <a href="https://wa.me/918136892484" target="_blank" rel="noopener" aria-label="WhatsApp">
+                        <span class="iconify" data-icon="lucide:message-circle" data-width="18"></span>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="#process">Our Process</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="/best-web-design-india">Website Design</a></li>
+                    <li><a href="/local-seo-services-india">Local SEO</a></li>
+                    <li><a href="/bussiness-profile-services-india">Google Business Profile</a></li>
+                    <li><a href="/search-console-managment-india">Search Console</a></li>
+                    <li><a href="/web-development-service-india">Web Dev in India</a></li>
+                    <li><a href="/web-development-kerala">Web Dev in Kerala</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul>
+                     <li><a href="tel:+918136892484">+91 8136892484</a></li>
+                    <li><a href="https://instagram.com/b_webs.official" target="_blank" rel="noopener">@b_webs.official</a></li>
+                    <li><a href="https://wa.me/918136892484" target="_blank" rel="noopener">Whatsapp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 B-Webs. All rights reserved.</span>
+            <span>Crafted with passion in India</span>
+        </div>
+    </div>
+</footer>
+
+<script src="/script.js"></script>
+<script>
+// ===== HERO ANIMATION (homepage only) =====
+function animateHero() {
+    const badge = document.getElementById('heroBadge');
+    const words = document.querySelectorAll('.hero h1 .word');
+    const sub = document.getElementById('heroSub');
+    const btns = document.getElementById('heroBtns');
+    const stats = document.getElementById('heroStats');
+
+    setTimeout(() => { badge.style.transition = 'all 0.8s cubic-bezier(0.16,1,0.3,1)'; badge.style.opacity = '1'; badge.style.transform = 'translateY(0)'; }, 200);
+    words.forEach((word, i) => {
+        setTimeout(() => {
+            word.style.transition = 'all 0.8s cubic-bezier(0.16,1,0.3,1)';
+            word.style.opacity = '1';
+            word.style.transform = 'translateY(0) rotateX(0deg)';
+        }, 400 + i * 150);
+    });
+    setTimeout(() => { sub.style.transition = 'all 0.8s cubic-bezier(0.16,1,0.3,1)'; sub.style.opacity = '1'; sub.style.transform = 'translateY(0)'; }, 400 + words.length * 150 + 100);
+    setTimeout(() => { btns.style.transition = 'all 0.8s cubic-bezier(0.16,1,0.3,1)'; btns.style.opacity = '1'; btns.style.transform = 'translateY(0)'; }, 400 + words.length * 150 + 250);
+    setTimeout(() => {
+        stats.style.transition = 'all 0.8s cubic-bezier(0.16,1,0.3,1)';
+        stats.style.opacity = '1'; stats.style.transform = 'translateY(0)';
+        animateCounters();
+    }, 400 + words.length * 150 + 450);
+}
+
+// ===== COUNTER ANIMATION (homepage only) =====
+function animateCounters() {
+    document.querySelectorAll('.hero-stat-num').forEach(el => {
+        const target = parseInt(el.dataset.count);
+        let current = 0;
+        const step = Math.max(1, Math.floor(target / 40));
+        const interval = setInterval(() => {
+            current += step;
+            if (current >= target) { current = target; clearInterval(interval); }
+            el.textContent = current + '+';
+        }, 40);
+    });
+}
+
+// ===== PROCESS TIMELINE (homepage only) =====
+let processAnimated = false;
+const processObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting && !processAnimated) {
+            processAnimated = true;
+            const steps = document.querySelectorAll('.process-step');
+            const fill = document.getElementById('processLineFill');
+            steps.forEach((step, i) => {
+                setTimeout(() => {
+                    step.classList.add('lit');
+                    if (i < steps.length - 1) fill.style.width = ((i + 1) / (steps.length - 1) * 75) + '%';
+                }, i * 400);
+            });
+        }
+    });
+}, { threshold: 0.3 });
+processObserver.observe(document.getElementById('processTimeline'));
+</script>
+</body>
+</html>
